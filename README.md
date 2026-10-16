@@ -1,6 +1,6 @@
 # ESP-Guitar-Pedal
 
-A digital guitar pedal built around the **ESP32-S3 (N16R8)**, featuring a looper, gain control, and delay with tap-tempo — designed as a compact, 3D-printed stompbox with an OLED display and physical knobs for live control.
+A digital guitar pedal built around the **ESP32-S3 (N16R8)**, featuring a looper, gain control, and delay with tap-tempo — designed as a compact, with an OLED display and physical knobs for live control.
 
 ## Features
 
