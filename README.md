@@ -17,9 +17,9 @@ A digital guitar pedal built around the **ESP32-S3 (N16R8)**, featuring a looper
 | Microcontroller | ESP32-S3-N16R8 (16MB flash / 8MB PSRAM) |
 | ADC | PCM1808 |
 | DAC | PCM5102 |
-| Input buffer op-amps | TL072 x2 |
-| Voltage regulation | AMS1117 3.3V x2 |
-| Pots | 100K x4 |
+| Input buffer op-amps | TL072 |
+| Voltage regulation | AMS1117 3.3V |
+| Pots | 10k x2 |
 | Display | 1.3" I2C OLED |
 | Footswitches | 2x latching 3PDT, 1x SPDT momentary (external) |
 
