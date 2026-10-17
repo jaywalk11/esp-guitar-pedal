@@ -1,0 +1,23 @@
+Function,Signal,GPIO
+I2S shared clock,BCLK (bit clock),GPIO5
+I2S shared clock,WS / LRCLK (word select),GPIO6
+I2S to DAC (PCM5102),DOUT (data out),GPIO15
+I2S from ADC (PCM1808),DIN (data in),GPIO7
+I2S master clock,SCK (PCM1808),GPIO2
+OLED (I2C),SDA,GPIO8
+OLED (I2C),SCL,GPIO18
+"Footswitch 1 (3PDT, loop/effect select)",Digital in,GPIO11
+Footswitch 2 (tap- tempo),Digital in,GPIO12
+Momentary switch (loop trigger),Digital in,GPIO13
+Pot 1 (e.g. mix/level),ADC1_CH,GPIO3
+Pot 3 (e.g. feedback/depth),ADC1_CH,GPIO1
+GND,Ground,GND pin
+"MDO, MD1, FMY",Mode Select (PCM1808),GND pin
+"FMT, FLT, DEMP",Mode Select (PCM5102),GND pin
+SCK,Grounded (Enables internal PLL),GND pin
+XSMT,Soft Mute (PCM5102),3v3 pin
+,,
+Notes:,,
+"- Pots are wired to ADC1 pins only (not ADC2), since ADC2 shares hardware with Wi-Fi and gets unreliable if Wi-Fi is enabled.",,
+- Footswitches and the momentary switch should go through debounce (RC or firmware-side) to avoid multiple triggers from mechanical bounce.,,
+"- GPIO assignment is flexible: the ESP32-S3's GPIO matrix lets I2S/I2C be remapped to almost any pin, so pins can be swapped in firmware without a hardware change.",,

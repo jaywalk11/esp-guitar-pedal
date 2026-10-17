@@ -1,0 +1,17 @@
+Qty,Component,Part / Spec,Notes
+1,Microcontroller,ESP32-S3-N16R8 dev board,"16MB flash, 8MB PSRAM,"
+1,ADC,PCM1808 module,"Guitar signal to digital, I2S"
+1,DAC,PCM5102 module,"Digital to line-level out, I2S"
+2,Op-amp,TL072 (dual),Input + output buffer stages
+1,Voltage regulator,AMS1117 3.3V,Power for logic/ADC/DAC
+2,Potentiometer,100K linear,Feedback/Mix control
+1,Display,"1.3"" I2C OLED",Status/UI
+1,DC barrel jack,Panel-mount,Power input
+2,Instrument jack,"6.35mm (1/4"") 9-pin","In/out, stereo-switching type"
+2,Footswitch,"PBS-24-302P, latching 3PDT","Loop/effect select, tap tempo"
+1,Momentary switch,XpertTech SPST,loop trigger
+1,Capacitor,0.1 uF (104),AC coupling / decoupling
+2,Resistor,100k,Input buffer bias divider
+1,Resistor,1 Mohm,Buffer input impedance
+2,Capacitor,10 uF,Input AC coupling (0.1uF usable as substitute)
+1,Perfboard,6 x 12 cm,Final build board
