@@ -42,12 +42,3 @@ Built on the ESP32-S3, handling:
 - Perfboard prototype (6x12 cm) for initial bring-up
 - KiCad schematic/PCB design (in progress)
 
-
-## Repository Structure
-
-```
-/firmware     — ESP32-S3 source code
-/hardware     — KiCad schematics (pending), perfboard layout , wiring diagrams
-/enclosure    — 3D-printable enclosure CAD files (pending)
-/docs         — notes, photos, build log
-```
